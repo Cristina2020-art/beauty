@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Beauty Website</title>
+    <!-- Link către fișierele CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- Stiluri personalizate -->
+    <style>
+      body {
+        background-color: #1d76c4;
+      }
+
+      .navbar {
+        background-color: #5615b7;
+      }
+
+      section {
+        background-color: #23a02e;
+        padding: 40px 0;
+      }
+
+      footer {
+        background-color: #591d8a;
+      }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+    <!-- Bara de navigare -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Beauty</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Acasă</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicii">Servicii</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#produse">Produse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#despre">Despre noi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Antet cu imagine de copertă -->
+    <header id="home" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Bucură-te de frumusețe!</h1>
+        <p class="lead">
+          Descoperă serviciile noastre și produsele de înaltă calitate pentru
+          a-ți evidenția frumusețea naturală.
+        </p>
+      </div>
+    </header>
+
+    <!-- Secțiune cu servicii -->
+    <section id="servicii" class="container my-5">
+      <h2 class="text-center mb-4">Serviciile noastre</h2>
+      <div class="row">
+        <!-- Serviciu 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="serviciu1.jpeg" alt="Serviciu 1" />
+            <div class="card-body">
+              <h3 class="card-title">Masaj relaxant</h3>
+              <p class="card-text">
+                Experimentați o sesiune de masaj relaxant pentru a vă destinde
+                și a elibera stresul acumulat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Serviciu 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="serviciu2.jpeg" alt="Serviciu 2" />
+            <div class="card-body">
+              <h3 class="card-title">Tratament facial</h3>
+              <p class="card-text">
+                Beneficiați de tratamente faciale personalizate pentru o piele
+                radiantă și sănătoasă.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Serviciu 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="serviciu3.jpeg" alt="Serviciu 3" />
+            <div class="card-body">
+              <h3 class="card-title">Manichiură și pedichiură</h3>
+              <p class="card-text">
+                Obțineți unghii impecabile cu serviciile noastre de manichiură
+                și pedichiură profesionale.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secțiune cu produse -->
+    <section id="produse" class="container my-5">
+      <h2 class="text-center mb-4">Produse recomandate</h2>
+      <div class="row">
+        <!-- Produs 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="produs1.jpeg" alt="Produs 1" />
+            <div class="card-body">
+              <h3 class="card-title">Cremă de față hidratantă</h3>
+              <p class="card-text">
+                O cremă bogată în nutrienți pentru a menține pielea hidratată și
+                sănătoasă.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Produs 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="produs2.jpg" alt="Produs 2" />
+            <div class="card-body">
+              <h3 class="card-title">Parfum floral</h3>
+              <p class="card-text">
+                Descoperiți aromele delicate ale acestui parfum floral, perfect
+                pentru orice ocazie.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Produs 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="produs3.jpeg" alt="Produs 3" />
+            <div class="card-body">
+              <h3 class="card-title">Set de machiaj profesional</h3>
+              <p class="card-text">
+                Un set complet de machiaj pentru a vă evidenția frumusețea
+                într-un mod profesionist.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secțiune "Despre noi" -->
+    <section id="despre" class="container my-5">
+      <h2 class="text-center mb-4">Despre noi</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid" src="despre-noi.png" alt="Despre noi" />
+        </div>
+        <div class="col-md-6">
+          <h3>Noi suntem Beauty</h3>
+          <p>
+            Beauty este o echipă dedicată de profesioniști în frumusețe,
+            pasionați de îngrijirea și evidențierea frumuseții naturale a
+            fiecărui individ. Cu o experiență bogată în industrie, ne-am angajat
+            să oferim servicii de înaltă calitate și produse inovatoare.
+          </p>
+          <h3>Valorile noastre</h3>
+          <ul>
+            <li>
+              <strong>Pasiune:</strong> Suntem dedicați și pasionați de ceea ce
+              facem, iar asta se reflectă în serviciile și produsele noastre.
+            </li>
+            <li>
+              <strong>Calitate:</strong> Ne străduim să oferim doar produse de
+              cea mai înaltă calitate și servicii personalizate pentru clienții
+              noștri.
+            </li>
+            <li>
+              <strong>Inovație:</strong> Urmarim tendințele din industrie și
+              aducem mereu inovații pentru a satisface nevoile în continuă
+              schimbare ale clienților noștri.
+            </li>
+            <li>
+              <strong>Experiență:</strong> Avem o echipă de experți în domeniul
+              frumuseții, gata să vă ofere o experiență memorabilă în fiecare
+              vizită.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secțiune de contact -->
+    <section id="contact" class="container my-5">
+      <h2 class="text-center mb-4">Contact</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Informații de contact</h3>
+          <p>
+            Pentru întrebări, programări sau alte informații, vă rugăm să ne
+            contactați:
+          </p>
+          <address>
+            <strong>Beauty</strong><br />
+            Adresa: Strada Aurel Vlaicu, Nr. 43, Cluj-Napoca<br />
+            Telefon: 0264567890<br />
+            Email: contact@beauty.com
+          </address>
+        </div>
+        <div class="col-md-6">
+          <h3>Formular de contact</h3>
+          <form>
+            <div class="form-group">
+              <label for="nume">Nume:</label>
+              <input type="text" class="form-control" id="nume" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="mesaj">Mesaj:</label>
+              <textarea
+                class="form-control"
+                id="mesaj"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Trimite mesaj</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Linkuri utile</h4>
+            <ul class="list-unstyled">
+              <li><a href="#home">Acasă</a></li>
+              <li><a href="#servicii">Servicii</a></li>
+              <li><a href="#produse">Produse</a></li>
+              <li><a href="#despre">Despre noi</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Conectați-vă cu noi</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://facebook.com">Facebook</a></li>
+              <li><a href="https://instagram.com">Instagram</a></li>
+              <li><a href="https://twitter.com">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Abonați-vă la newsletter</h4>
+            <form class="form-inline">
+              <div class="form-group mx-sm-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Introduceți adresa de email"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary">Abonați-vă</button>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <p>&copy; 2023 Beauty. Toate drepturile rezervate.</p>
+      </div>
+    </footer>
+
+    <!-- Link către fișierele JavaScript Bootstrap (jQuery și Popper.js sunt necesare pentru Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
